@@ -6,7 +6,7 @@ $('document').ready(function() {
     //  else
       //  toggle visibility of iframe
 
-  $('.slidesList').click(function(event) {
+  $('.slidesList, .pairing').click(function(event) {
     var target = event.target;
     var next = $(target).next()[0];
     if (next.localName !== 'iframe') {
@@ -16,7 +16,5 @@ $('document').ready(function() {
       $(next).toggle();
     }
   });
-
-
 
 });
