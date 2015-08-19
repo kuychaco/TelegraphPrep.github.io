@@ -176,6 +176,24 @@ h6, .h6 {
   cursor: pointer;
 }
 
+.pairing:hover {
+  color: blue;
+  /*font-weight: bold;*/
+  cursor: pointer;
+}
+
 #headerLogo {
   max-width: 100%;
 }
+
+/*
+ * Social Media Icons
+ */
+
+ .social_icon {
+     display: inline;
+     opacity: .7;
+     margin: 0px 0px 0px 1px;
+     height: 40px;
+     width: 40px;
+ }
